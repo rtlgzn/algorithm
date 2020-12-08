@@ -49,7 +49,7 @@ int main(){
             scanf("%d", &mass[i]);
             time_start();
             shell(n, mass);
-            printf("%d", time_stop());
+            printf("%ld", time_stop());
             for (int i = 0; i < n; i++)
                 printf("%d ", mass[i]);
             printf("\n");
